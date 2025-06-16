@@ -1,0 +1,7 @@
+FROM n8nio/n8n
+
+# Set default port to match Railway
+ENV N8N_PORT=3000
+EXPOSE 3000
+
+CMD ["n8n"]
